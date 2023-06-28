@@ -15,3 +15,22 @@ Recommender can use two of the avaiable Neural Networks:<br>
 There were plans to create a neural network with embedding layers but I wasn't able to do it.
 
 ## Tuning
+![alt text](tuning.png "Title")
+
+## Requirements 
+To run this notebook without issues you need to install the following libraries:
+
+1. Install python >= 3.8
+2. Install following libraries:<br>
+<code>numpy</code>
+<code>pandas</code>
+<code>matplotlib</code>
+<code>seaborn</code>
+<code>hyperopt</code>
+<code>collections</code>
+<code>torch</code>
+<code>livelossplot</code>
+You can either use conda or pip
+3. The recommender is implemented in the file <code>project_2_recommender_and_evaluation.ipynb</code>. However, before running this file, it is necessary to execute <code>project_1_data_preparation.ipynb</code> as it performs the required data preparation steps. Running it ensures that the data is properly prepared and ready for use by the recommender system.
+
+all the necessary data is in the repository
