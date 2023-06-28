@@ -1,7 +1,7 @@
 # Neural Network Recommender
 Neural Network Recommender for Recommending the Best Possible Hotel Stay
 <hr>
-The Aim of this project was to create a neural network recommender which, for given users, would recommend the best possible hotel stays. The main goal was to beat Amazon's recommender which was trained on the same dataset.
+The aim of this project was to create a neural network recommender which, for given users, would recommend the best possible hotel stays.
 
 ## Preparing data 
 The <code>users_df</code> dataframe was one-hot encoded, and the user features were normalized by calculating the probability for each value.
